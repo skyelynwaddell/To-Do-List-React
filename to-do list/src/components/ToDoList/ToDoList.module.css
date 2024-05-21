@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(37, 37, 37);
+}
+
+.container{
+    background-color: grey;
+    margin: 0 auto;
+    padding:10px;
+    border-radius:10px;
+    min-height:100vh;
+    height:100%;
+}
+
+.container,
+.appTitle,
+.newTask,
+.taskItem{
+    width:90%;
+    max-width: 500px;
+}
+
+.appTitle{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.534);
+    color:white;
+    font-size: xx-large;
+    padding: 10px;
+    margin:10px auto;
+    border-radius: 10px;
+}
+
+.newTask{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding:20px;
+    padding-bottom:20px;
+    gap:10px;
+    background-color: rgba(0, 0, 0, 0.278);
+    border-radius: 10px;
+}
+
+.taskItem{
+    background-color: rgba(0, 0, 0, 0.278);
+    border-radius: 10px;
+    color:white;
+    margin:0 auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    align-items: center;
+}
+
+.task{
+    background-color: rgba(47, 47, 47, 0.787);
+    margin:10px;
+    border-radius: 10px;
+}
+
+.taskName{
+    display: inline-block;
+    left:0;
+    align-items: center;
+    margin:10px;
+    padding:10px;
+    width:50%;
+    background-color: rgba(0, 0, 0, 0.31);
+    border-radius: 10px;
+}
+
+.deleteButton,
+.upDownButton{
+    float:right;
+    margin:10px auto;
+    margin-right:10px;
+}
